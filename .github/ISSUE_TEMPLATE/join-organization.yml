@@ -2,7 +2,7 @@ name: 👔 Join Organization
 description: Template for joining the organization
 title: 'Request to Join: [Your Name]'
 labels: ['join-request']
-assignees: ''
+# assignees: ''
 
 body:
   - type: input
