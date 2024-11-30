@@ -1,0 +1,33 @@
+name: 👔 Join Organization
+description: Template for joining the organization
+title: 'Request to Join: [Your Name]'
+labels: ['join-request']
+assignees: ''
+
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Your Name
+      description: Please enter your full name
+      placeholder: John Doe
+    validations:
+      required: true
+
+  - type: textarea
+    id: skills
+    attributes:
+      label: Your Skills
+      description: Please list your skills, what you can do, and your experience
+      placeholder: e.g., I can develop web applications using JavaScript and Python. I have 3 years of experience in project management.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for Joining
+      description: Please explain why you want to join our organization
+      placeholder: I am passionate about contributing to open-source projects...
+    validations:
+      required: true
